@@ -4,11 +4,42 @@ body{
   background-color: #FCF7F8;
 }
 
+#profilePhoto{
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  border: 3px solid orangered;
+}
+
 header {
   text-align: center;
+}
+#heading{
+  font-family: sans-serif;
+  font-size: 110%;
+  background-color: gray;
 }
 
 footer {
   background-color: #343330;
   text-align: center;
-}
+  }
+  #sidebar{
+    width: 20%;
+    background-color: teal;
+    padding: 1rem;
+    color: black;
+  }
+  .navList{
+    list-style-type: none;
+    padding: 0%;
+  }
+
+  .icons{
+    width: 3rem;
+    margin: 0.5rem;
+    height: auto;
+
+  }
+
+  
