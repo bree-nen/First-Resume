@@ -27,8 +27,12 @@ body{
 header {
   text-align: left;
   justify-content: center;
+  
 
 }
+
+
+
 #heading{
   font-family: sans-serif;
   font-size: 110%;
@@ -49,6 +53,14 @@ footer {
   .navList{
     list-style-type: none;
     padding: 0%;
+  }
+
+  .carousel{
+    width: auto;
+    height: auto;
+    justify-content: center;
+
+
   }
 
   .icons{
