@@ -1,60 +1,121 @@
 <!DOCTYPE html>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="bree">
+  <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link 
+  rel="stylesheet" 
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+  crossorigin="anonymous">
+
+  
   <title>My first web page</title>
+
+  <!-- JS, Popper.js, and jQuery -->
+
+<script 
+src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+crossorigin="anonymous">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+crossorigin="anonymous">
+</script>
+<script 
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+crossorigin="anonymous">
+</script>
+
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
-<body>
 
+
+<body>
+  
 <header id="heading">
 
-  <img src="./Images/beauty.jpg"
-width="200px"
-alt=" Picture of Britney Nenwalwi"
-id="profilePhoto">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#education">Education</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#experience">Experience<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact Me">Contact Me</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#get in touch">Get In Touch</a> 
+        </li>
+      </ul>
+      </div>
+    </nav>
+
+
+
+<picture>
+  <source media="(max-width: 650px)" srcset="images/profile-pic-small.jpg">
+  <source media="(max-width: 1400px)" srcset="images/profile-pic-mid.jpg">
+  <img src="images/profile-pic-large.jpg" alt="britney" id="profilePhoto">
+</picture>
+
 
   <h1>Britney Nenwalwi</h1>  
   <p>The first time i came across web development i fell in love with it, thats the reason why i'm currently studying at CodeSpace academy doing software engineering.And i interested in leveraging my skills.  </p>
   
-</header>
+</main>
 
-<main class="main" >
 
-<div id="sidebar">
 
-  <nav>
+<div class="contents">
 
-  <h2>Menu</h2>
+    <h2 id="education">Education</h2>
 
-     <ul class="navList">
-         <li> <a href="#education">Education</a></li>
-         <li> <a href="#experience">Experience</a></li>
-          <li> <a href="#skills">Skills</a></li>
-     </ul>
-  </nav>
+    <div class="container" style="margin-top: 30px;">
+      <div class="row">
+
+        <article class="col-sm-7">
+
+     <h3>Intro to web at<a href =" https://www.codespace.co.za/"     target="_blank"><b>CodeSpace Academy</b></a>
+     </h3>
+
+      
+      <h4>2015-2019</h4>
+       <p> i was studying at Marude secondary school. I passed my matric with a bachelor in 2019 .</p>
+       <h4>Excelled in Mathematics</h4> 
+       <p> Used to get award every year for being the top achiver.Participated in everything related to leveraging my knowledge.</p>
+    </article>
+
+    <aside class="col-sm-5">
+
+    <h3>Qualification 2</h3>
+
+    <h4>2020-2021</h4>
+    <p>Took a gap year trying to figure out what am i gonna study until i came across web development.</p>
+
+    <h4>2022</h4>
+    <p>I'm studying Software engineering at CodeSpace Academy.</p>
+    </aside>
+  </div>
 </div>
 
-
-
-  <div class="contents">
-
-
-<h2 id="education">Education</h2>
-
-<h3>Intro to web at<a href =" https://www.codespace.co.za/"     target="_blank"><b>CodeSpace Academy</b></a>
-</h3>
-
-<h4>2015-2019</h4>
-<p> i was studying at Marude secondary school. I passed my matric with a bachelor in 2019 .</p>
- <h4>Excelled in Mathematics</h4> 
- Used to get award every year for being the top achiver.Participated in everything related to leveraging my knowledge.
-
-
-<h3>Qualification 2</h3>
-
-<h4>2020-2021</h4>
-<p>Took a gap year trying to figure out what am i gonna study until i came across web development.</p>
-<h4>2022</h4>
-<p>I'm studying Software engineering at CodeSpace Academy.</p>
 
 <h2 id="experience">Experience</h2>
 
@@ -68,6 +129,9 @@ id="profilePhoto">
   <li> I also did statistics,i have a little bit of knowledge in statistics  </li>
   <li>And also Calculus</li>
 </ul>
+
+
+
 <h3>Languages</h3>
 
 <ul>
@@ -77,50 +141,79 @@ id="profilePhoto">
   <li> Currently learning xitsonga </li>
 </ul>
 
+
+
 <h2 id="skills">Skills</h2>
-  <p>
+ 
     <ul>
-        <li>Time management</li>
-        <li>Proactive problem solver</li>
-        <li>Team work</li>
-        <li>Communicator with strong listening and writting skills</li>
-        <li>Excellent at providing help</li>
+      <img class="icons" src="images/bootstrap-icon.png"
+      alt="Bootstrap icon"  
+      width="50px">
+
+      <img class="icons" src="images/css-icon.png"
+      alt="Css icon"  
+      width="50px">
+
+      <img class="icons" src="images/html-icon.png"
+      alt="Html icon"  
+      width="50px">
+
+      <img class="icons" src="images/java-icon.png"
+       alt="Java icon"  
+        width="50px">
+
     </ul>
-  </p>
+  
 
-   </id>
+   
 
+    <h2 id="contact me">Contact Me</h2>
+      <form><label for="full name">Full Name:</label>
+      <input type="text" id="name" name="user_name" required></form>
+      <form><label for="email adress">Email Adress:</label>
+      <input type="email" id="mail" name="user_mail" required>
+      </form>
+      <form><label for="message">Message:</label>
+        <textarea id="about"name="user_message"></textarea></form>
+        <input type="submit" value="Submit"/>
+    </id>
 
     </div>
+    </header>
 
-  </main>
+    
 
     <footer>
+      
 
-      <h3>Contact Details</h3>
+      <h3 id="get in touch">Get in touch</h3>
       <ul>
+      
         <a href="http://www.linkedIn.com" target="_blank">
-
-          <img class="icons" src="images/linkedinIcon.png"
+          
+          
+        <img class="icons" src="images/linkedinIcon.png"
            alt="Britney Nenwalwi Linkedin"  
-
-           width="100px"
+           width="50px"
          </a> 
+
          <a href="http://www.facebook.com" target="_blank">
 
           <img class="icons" src="images/facebookIcon.png"
            alt=" Britney Nenwalwi Facebook"  
            width="100px"
-         </a> <a href="http://www.britneynenwalwi@gmail.com" target="_blank">
+         </a> 
+         <a href="http://www.britneynenwalwi@gmail.com" target="_blank">
 
           <img class="icons" src="images/gmailIcon.png"
            alt=" Britney Nenwalwi Gmail"  
             width="100px"
-         </a> 
-
-
-
+         </a>
+                   
       </ul>
+    </li>
+  </ul>
+      
 
     </footer>
 
